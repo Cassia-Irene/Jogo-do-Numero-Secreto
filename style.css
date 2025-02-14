@@ -138,3 +138,35 @@ button:disabled {
         padding: 1rem
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 95%;
+    }
+    .container__informacoes {
+        padding: 1.5rem;
+    }
+    .container__botao {
+        font-size: 16px;
+        padding: 10px 16px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container__informacoes {
+        padding: 1rem;
+    }
+    .container__botao {
+        font-size: 16px;
+        padding: 10px 16px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    .container__imagem-pessoa {
+        display: none;
+    }
+}
